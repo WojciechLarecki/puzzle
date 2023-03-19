@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="index.css" rel="stylesheet">
+    <script src="index.js" defer></script>
+    <title>Puzzle game</title>
+</head>
+
+<body>
+    <div class="layoutGrid">
+        <div id="pieces"></div>
+        <h2>Moves: <span id="turns">0</span></h2>
+        <div id="board"></div>
+    </div>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2>Congratulations! You have won!</h2>
+            </div>
+            <div class="modal-body">
+                <p>Number of moves: <span id="moves">0</span></p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
