@@ -38,7 +38,7 @@ window.onload = function () {
 
     for (let i = 0; i < pieces.length; i++) {
         const tile = document.createElement("img");
-        tile.src = pieces[i] + ".jpg";
+        tile.src = "images/" + pieces[i] + ".JPG";
 
         tile.addEventListener("dragstart", dragStart);
         tile.addEventListener("dragover", e => e.preventDefault());
